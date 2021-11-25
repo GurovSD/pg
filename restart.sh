@@ -18,5 +18,5 @@ docker run \
 
 # psql -U postgres -p 5432 -h localhost
 
-# \i /workdir/schema.sql
-# \i data.sql
+# \i /home/laooglee/gb/pg/workdir/schema.sql
+# \i /home/laooglee/gb/pg/workdir/data.sql
