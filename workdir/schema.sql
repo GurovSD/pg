@@ -16,8 +16,8 @@ CREATE DATABASE super_jober
 
 CREATE TABLE job_types(
     id INT PRIMARY KEY GENERATED ALWAYS AS IDENTITY,
-    parent_id NOT NULL,
-    job_type VARCHAR(200)
+    parent_id INT NOT NULL,
+    job_type VARCHAR(200),
 
     FOREIGN KEY (parent_id) REFERENCES job_types (id) ON DELETE RESTRICT
         DEFERRABLE INITIALLY DEFERRED

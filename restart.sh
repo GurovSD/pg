@@ -12,5 +12,5 @@ docker run \
     -e PGDATA=/var/lib/postgresql/data \
     -v /home/laooglee/gb/pg/data:/var/lib/postgresql/data \
     -v /home/laooglee/gb/pg/workdir:/workdir \
-    postgres:14
+    postgres:14.1
     # -v /home/laooglee/gb/pg/init:/docker-entrypoint-init.d \
