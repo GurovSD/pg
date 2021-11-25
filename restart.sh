@@ -11,5 +11,6 @@ docker run \
     -e POSTGRES_PASSWORD=password \
     -e PGDATA=/var/lib/postgresql/data \
     -v /home/laooglee/gb/pg/data:/var/lib/postgresql/data \
-    -v /home/laooglee/gb/pg/init:/docker-entrypoint-init.d \
+    -v /home/laooglee/gb/pg/workdir:/workdir \
     postgres:14
+    # -v /home/laooglee/gb/pg/init:/docker-entrypoint-init.d \
